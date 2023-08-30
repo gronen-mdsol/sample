@@ -47,6 +47,10 @@ class InterviewQuestions {
         // Write a function to check if the parenthesis match or have an imbalance
         // E.g. valid "(()((())))" vs. invalid "((("
     }
+    
+    func bonusQuestion2Observer() {
+        // Write a way to be able to observe and subscribe to value changes in any (or most) types of object
+    }
 }
 
 
