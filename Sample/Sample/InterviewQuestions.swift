@@ -9,17 +9,7 @@ import Foundation
 
 class InterviewQuestions {
     
-    func question1Permutations() {
-        let sampleString = "a dog crossed a street"
-        
-        // print result of  sampleString.permutationsByChar()
-        // print result of  sampleString.permutationsByWord()
-        
-        // Add some example tests
-
-    }
-    
-    func question4_Palindrome() {
+    func question1_Palindrome() {
         let sampleString = "a dog crossed a street"
         
         // print result of  sampleString.isPalindrome()
@@ -27,7 +17,7 @@ class InterviewQuestions {
         // Add some example tests
     }
     
-    func question3ArrayDuplicates() {
+    func question2ArrayDuplicates() {
         
         let sampleArray = ["a", "dog", "crossed", "a", "street"]
         
@@ -37,24 +27,39 @@ class InterviewQuestions {
 
     }
     
-    func question4ReverseArray() {
+    func question3ReverseArray() {
         // print result
         
         // Add some example tests
+    }
+    
+    func question4Permutations() {
+        let sampleString = "a dog crossed a street"
+        
+        // print result of  sampleString.permutationsByChar()
+        // print result of  sampleString.permutationsByWord()
+        
+        // Add some example tests
+
+    }
+    
+    func bonusQuestionParenthesis() {
+        // Write a function to check if the parenthesis match or have an imbalance
+        // E.g. valid "(()((())))" vs. invalid "((("
     }
 }
 
 
 extension String {
+    func isPalindrome() -> Bool? {
+        return nil
+    }
+    
     func permutationsByChar() -> [String]? {
         return nil
     }
     
     func permutationsByWord() -> [String]? {
-        return nil
-    }
-    
-    func isPalindrome() -> Bool? {
         return nil
     }
 }
